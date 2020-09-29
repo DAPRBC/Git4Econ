@@ -113,7 +113,7 @@ Cada *commit* tiene su identificación única (40 dígitos alpha-numéricos), pe
  1 file changed, 245 insertions(+)
  create mode 100755 .gitignore
 ```
-El resultado de escribir `git commit -m "Primer Commit"` es un registro llamado (sus primeros 7 dígitos) `e0566e0` en donde cambiamos (agregamos) 1 archivo con 245 líneas. Este mensage, en general,  nos entrega un resumen de los cambios realizados en comparacion con el *commit* anterior. Por ejemplo, una vez que agregamos 
+El resultado de escribir `git commit -m "Primer Commit"` es un registro llamado (sus primeros 7 dígitos) `e0566e0` en donde cambiamos (agregamos) 1 archivo con 245 líneas. Este mensage, en general,  nos entrega un resumen de los cambios realizados en comparacion con el *commit* anterior. Por ejemplo, una vez que agregamos el archivo `Readme.md` al escenario y generamos un nuevo *commit* obtenemos el registro `38b5541` llamado por nosotros "Readme added". En el incorporamos un archivo con 150 líneas.
 
 ```git
  $git commit -m "Readme added"
@@ -122,14 +122,14 @@ El resultado de escribir `git commit -m "Primer Commit"` es un registro llamado 
  create mode 100644 Readme.md
  ```
 
-- [ ]  Qué pasa con los archivos binarios? 
-
+Para una descripción mas detallada de cómo utilizar Git en el *command line* recomendamos revisar  el siguiente [link](https://git-scm.com/book/en/v2) 
 ### Trabajando colaborativamente con el "yo" del futuro y pasado
 
+Como vimos en la sección anterior,  lo único que se necesita para empezar a utilizar Git, es Git y un computador con sistema operativo Linux, Windows o MacOS. Esto nos permite empezar a llevar un control de todas las versiones de nuestro proyecto. 
+
 - [ ]  Mencionar que es el branching y trabajo no lineal
-- [ ]  Mencionar qhe Git no es mágico!! Igualmente requiere un orden y manejo de conflictos 
-- [ ]  Introducción a los árboles Git
-- [ ]  Ejemplo concreto: como el orden de Git permite hacer cambios con mayor confianza.
+- [ ]  Mencionar que Git no es mágico!! Igualmente requiere un orden y manejo de conflictos 
+
 
 ### Trabajando colaborativamente con un equipo de personas
 
@@ -138,7 +138,7 @@ El resultado de escribir `git commit -m "Primer Commit"` es un registro llamado 
 
 #### Protocolos de comunicación de Git
 
-1. Local. El ejemplo más prehistórico: usar un pendrive!! 
+1. Local. El ejemplo más prehistórico: usar un pendrive para compartir un repositorio
 2. HTTP y HTTPS
 3. SSH
 4. GIT 
