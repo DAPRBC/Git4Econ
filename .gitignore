@@ -1,4 +1,6 @@
 ## Folders
+.DS_Store/
+.DS_Store
 src/vendor/
 
 ## Core latex/pdflatex auxiliary files:

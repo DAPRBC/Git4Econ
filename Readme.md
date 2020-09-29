@@ -113,7 +113,14 @@ Cada *commit* tiene su identificación única (40 dígitos alpha-numéricos), pe
  1 file changed, 245 insertions(+)
  create mode 100755 .gitignore
 ```
-El resultado de escribir `git commit -m "Primer Commit"` es un registro llamado (sus primeros 7 dígitos) `e0566e0` en donde cambiamos (agregamos) 1 archivo con 245 líneas. Este mensage, en general,  nos entrega un resumen de los cambios realizados en comparacion con el *commit* anterior.
+El resultado de escribir `git commit -m "Primer Commit"` es un registro llamado (sus primeros 7 dígitos) `e0566e0` en donde cambiamos (agregamos) 1 archivo con 245 líneas. Este mensage, en general,  nos entrega un resumen de los cambios realizados en comparacion con el *commit* anterior. Por ejemplo, una vez que agregamos 
+
+```git
+ $git commit -m "Readme added"
+[master 38b5541] Readme added
+ 1 file changed, 150 insertions(+)
+ create mode 100644 Readme.md
+ ```
 
 - [ ]  Qué pasa con los archivos binarios? 
 
