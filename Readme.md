@@ -1,6 +1,6 @@
 # Git  para economistas
 
-La idea de este repositorio es documentar los beneficions del uso de *Git* en ciencias sociales y, en particular, en el campo de la Economía. La documentación estará diseñada para que personas sin experiencia previa entiendan las ventajas de este sistema de control de versión y tengan una idea de cómo incorporarlo en su estructura de trabajo. Los ejemplos se orinetarán hacia la producción de un paper académico, pero debería ser fácil para el usuario entender los alcances para el desarrollo de cualquier aplicación que utilice archivos de texto como insumo.
+La idea de este repositorio es documentar los beneficios del uso de *Git* en ciencias sociales y, en particular, en el campo de la Economía. La documentación estará diseñada para que personas sin experiencia previa entiendan las ventajas de este sistema de control de versión y tengan una idea de cómo incorporarlo en su estructura de trabajo. Los ejemplos se orinetarán hacia la producción de un paper académico, pero debería ser fácil para el usuario entender los alcances para el desarrollo de cualquier aplicación que utilice archivos de texto como insumo.
 
 Disclaimer: este es un documento en desarrollo. Sientete con la confianza de colaborar: usamos Git, asi que cualquier cambio que le hagas puede ser incorporado de forma segura. Además, ninguno de los colaboradores se considera un experto en sistemas de control de versión. Somos todos usuarios, algunos con más experiencia que otros.
 
@@ -113,7 +113,7 @@ Cada *commit* tiene su identificación única (40 dígitos alpha-numéricos), pe
  1 file changed, 245 insertions(+)
  create mode 100755 .gitignore
 ```
-El resultado de escribir `git commit -m "Primer Commit"` es un registro llamado (sus primeros 7 dígitos) `e0566e0` en donde cambiamos (agregamos) 1 archivo con 245 líneas. Este mensage, en general,  nos entrega un resumen de los cambios realizados en comparacion con el *commit* anterior. Por ejemplo, una vez que agregamos el archivo `Readme.md` al escenario y generamos un nuevo *commit* obtenemos el registro `38b5541` llamado por nosotros "Readme added". En el incorporamos un archivo con 150 líneas.
+El resultado de escribir `git commit -m "Primer Commit"` es un registro llamado (sus primeros 7 dígitos) `e0566e0` en donde cambiamos (agregamos) 1 archivo con 245 líneas. Este mensage, en general,  nos entrega un resumen de los cambios realizados en comparacion con el *commit* anterior. Por ejemplo, una vez que agregamos el archivo `Readme.md` al escenario y generamos un nuevo *commit* obtenemos el registro `38b5541` llamado por nosotros "Readme added". En el incorporamos un archivo con 150 líneas (el archivo que estas leyendo!).
 
 ```git
  $git commit -m "Readme added"
